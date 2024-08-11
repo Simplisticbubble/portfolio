@@ -4,6 +4,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
     extend: {
+      backgroundImage: {
+        'mob': "url('/mobPyscho.png')",
+      },
       fontFamily: {
         'roboto-mono': ["Roboto Mono", "monospace"],
       },
