@@ -49,8 +49,8 @@ function Landing() {
                         <div className=" bg-mob bg-center bg-cover h-[20rem] w-[20rem] rounded-full">
 
                         </div>
-                        <div className="pt-10 pb-16 text-xl text-[#EDE0D4]">
-                                <p>GITHUB | LinkedIn</p>
+                        <div className=" flex flex-row pt-10 pb-16 text-xl text-[#EDE0D4]">
+                                <p className="mx-2"onClick={() => handleClick('https://github.com/Simplisticbubble')}>GITHUB</p><p> | </p><p className="mx-2" onClick={() => handleClick('www.linkedin.com/in/kevinseu')}>LinkedIn</p>
                         </div>
                         </div>
                     </div>
