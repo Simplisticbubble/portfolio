@@ -1,3 +1,6 @@
+
+import Switch from './Switch'
+
 function Landing() {
     return (
         <div className="bg-[#E6CCB2] w-screen flex items-center flex-col font-roboto-mono">
@@ -13,9 +16,10 @@ function Landing() {
                     <p className="font text-5xl text-[#EDE0D4]">KEVIN</p>
                     <div className="flex flex-row">
                         <p className="font text-5xl text-[#EDE0D4]">S</p>
-                        <div className="h-[2.9rem] w-[5rem] rounded-full bg-[#D9D9D9] flex items-center">
+                        {/* <span className="h-[2.9rem] w-[5rem] rounded-full bg-[#D9D9D9] flex items-center">
                             <div className="h-[2.7rem] w-[2.7rem] rounded-full bg-[#432818]"></div>
-                        </div>
+                        </span> */}
+                        <Switch/>
                         <p className="font text-5xl text-[#EDE0D4]">U</p>
                     </div>
                     <div className="pt-32 text-xl text-[#EDE0D4]">
@@ -38,7 +42,13 @@ function Landing() {
                 </div>
             </div>
             <div className="w-10/12 h-1 rounded-2xl bg-[#EDE0D4]"></div>{/*WHITE LINE */}
-            <div className="bg-[#9C6644] w-10/12 h-[60rem] rounded-3xl my-12 md:my-24">
+            <div className="bg-[#9C6644] w-10/12 rounded-3xl my-12 md:my-24 p-12 sm:px-44 text-[#EDE0D4]">
+                <p className='text-5xl mt-12 mb-16'>About Me</p>
+                <p className='text-3xl my-4'>Bio</p>
+                <p className='my-4 text-xl'>Hello! I'm Kevin, a Software Engineer and Computer Science graduate from the University of Technology Sydney, majoring in AI and Data Analytics. During my time at university, I spent my free time learning web development, specialising in full stack development. As a result, I have honed skills in the frontend, especially in React.js.</p>
+                <p className='my-4 text-xl'>With a passion for innovation and a drive for continuous learning, I am taking the necessary steps improve my abilities as a software engineer. After being mentored by several senior engineers and tech leads, I am driven to be a part of technical leadership, drive change and teach fellow junior colleagues.</p>
+                <p className='my-4 text-xl'>To cater this process, I have been learning how to design scalable systems to serve millions of users in my spare time. Books I've been reading include Alex Xu's System Design Interview (Highly recommend) and Designing Data Intensive Applications. In addition, I'm also trying to learn more about the DevOps world, recently picking up skills in GoLang, Shell Scripting and Docker.</p>
+                <p className='my-4 text-xl'>Outside of work related stuff, you will catch me in the gym, cooking food that would not bode well with Chef Ramsay, going on coffee runs, and listening to dance music. :D</p>
             </div>
             <div className="w-10/12 h-1 rounded-2xl bg-[#EDE0D4]"></div>{/*WHITE LINE */}
         </div>
