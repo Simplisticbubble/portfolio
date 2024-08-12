@@ -55,41 +55,37 @@ function Landing() {
             <div className="w-10/12 h-1 rounded-2xl bg-[#EDE0D4]"></div>{/*WHITE LINE */}
             
             <div className='flex flex-row flex-wrap items-center justify-center gap-20 sm:gap-40 mt-20 md:mt-52'>
-                
-                <div className="flex flex-col justify-center items-center text-[#EDE0D4]  h-[20rem] w-[20rem] sm:h-[45rem] sm:w-[45rem] rounded-[5rem] sm:rounded-[10rem] bg-[#432818] p-20">
+                <div className={`flex flex-col justify-center items-center text-[#EDE0D4]  h-[20rem] w-[20rem] sm:h-[45rem] sm:w-[45rem] rounded-[5rem] sm:rounded-[10rem]  p-20 ${state.isSelect ? "bg-[#414444]" : "bg-[#432818]"}`}>
                     <p className='text-xl sm:text-5xl my-4'>Party Task App</p>
                     <p className='my-4 text-sm sm:text-3xl text-center'>Created an application using GO and React Native. Enabling users to create and designate tasks. Using drag and drop component to mark specific tasks.</p>
                 </div>
-                
-                <div className=" h-[20rem] w-[20rem] sm:h-[45rem] sm:w-[45rem] rounded-[5rem] sm:rounded-[10rem] bg-[#432818]"></div>
+                <div className= {`h-[20rem] w-[20rem] sm:h-[45rem] sm:w-[45rem] rounded-[5rem] sm:rounded-[10rem] ${state.isSelect ? "bg-[#414444]" : "bg-[#432818]"}`}></div>
             </div>
+            <div className="w-10/12 h-1 rounded-2xl bg-[#EDE0D4] mt-48"></div>{/*WHITE LINE */}
             <div className='flex flex-row flex-wrap items-center justify-center gap-20 sm:gap-40 mt-20 md:mt-52'>
-                
-                <div className="flex flex-col justify-center items-center text-[#EDE0D4]  h-[20rem] w-[20rem] sm:h-[45rem] sm:w-[45rem] rounded-[5rem] sm:rounded-[10rem] bg-[#432818] p-20">
+                <div className={`flex flex-col justify-center items-center text-[#EDE0D4]  h-[20rem] w-[20rem] sm:h-[45rem] sm:w-[45rem] rounded-[5rem] sm:rounded-[10rem]  p-20 ${state.isSelect ? "bg-[#414444]" : "bg-[#432818]"}`}>
                     <p className='text-xl sm:text-5xl my-4'>Party Task App</p>
                     <p className='my-4 text-sm sm:text-3xl text-center'>Created an application using GO and React Native. Enabling users to create and designate tasks. Using drag and drop component to mark specific tasks.</p>
                 </div>
-                
-                <div className=" h-[20rem] w-[20rem] sm:h-[45rem] sm:w-[45rem] rounded-[5rem] sm:rounded-[10rem] bg-[#432818]"></div>
+                <div className= {`h-[20rem] w-[20rem] sm:h-[45rem] sm:w-[45rem] rounded-[5rem] sm:rounded-[10rem] ${state.isSelect ? "bg-[#414444]" : "bg-[#432818]"}`}></div>
             </div>
+            <div className="w-10/12 h-1 rounded-2xl bg-[#EDE0D4] mt-48"></div>{/*WHITE LINE */}
             <div className='flex flex-row flex-wrap items-center justify-center gap-20 sm:gap-40 mt-20 md:mt-52'>
-                
-                <div className="flex flex-col justify-center items-center text-[#EDE0D4]  h-[20rem] w-[20rem] sm:h-[45rem] sm:w-[45rem] rounded-[5rem] sm:rounded-[10rem] bg-[#432818] p-20">
+                <div className={`flex flex-col justify-center items-center text-[#EDE0D4]  h-[20rem] w-[20rem] sm:h-[45rem] sm:w-[45rem] rounded-[5rem] sm:rounded-[10rem]  p-20 ${state.isSelect ? "bg-[#414444]" : "bg-[#432818]"}`}>
                     <p className='text-xl sm:text-5xl my-4'>Party Task App</p>
                     <p className='my-4 text-sm sm:text-3xl text-center'>Created an application using GO and React Native. Enabling users to create and designate tasks. Using drag and drop component to mark specific tasks.</p>
                 </div>
-                
-                <div className=" h-[20rem] w-[20rem] sm:h-[45rem] sm:w-[45rem] rounded-[5rem] sm:rounded-[10rem] bg-[#432818]"></div>
+                <div className= {`h-[20rem] w-[20rem] sm:h-[45rem] sm:w-[45rem] rounded-[5rem] sm:rounded-[10rem] ${state.isSelect ? "bg-[#414444]" : "bg-[#432818]"}`}></div>
             </div>
+            <div className="w-10/12 h-1 rounded-2xl bg-[#EDE0D4] mt-48"></div>{/*WHITE LINE */}
             <div className='flex flex-row flex-wrap items-center justify-center gap-20 sm:gap-40 mt-20 md:mt-52'>
-                
-                <div className="flex flex-col justify-center items-center text-[#EDE0D4]  h-[20rem] w-[20rem] sm:h-[45rem] sm:w-[45rem] rounded-[5rem] sm:rounded-[10rem] bg-[#432818] p-20">
+                <div className={`flex flex-col justify-center items-center text-[#EDE0D4]  h-[20rem] w-[20rem] sm:h-[45rem] sm:w-[45rem] rounded-[5rem] sm:rounded-[10rem]  p-20 ${state.isSelect ? "bg-[#414444]" : "bg-[#432818]"}`}>
                     <p className='text-xl sm:text-5xl my-4'>Party Task App</p>
                     <p className='my-4 text-sm sm:text-3xl text-center'>Created an application using GO and React Native. Enabling users to create and designate tasks. Using drag and drop component to mark specific tasks.</p>
                 </div>
-                
-                <div className=" h-[20rem] w-[20rem] sm:h-[45rem] sm:w-[45rem] rounded-[5rem] sm:rounded-[10rem] bg-[#432818]"></div>
+                <div className= {`h-[20rem] w-[20rem] sm:h-[45rem] sm:w-[45rem] rounded-[5rem] sm:rounded-[10rem] ${state.isSelect ? "bg-[#414444]" : "bg-[#432818]"}`}></div>
             </div>
+            <div className="w-10/12 h-1 rounded-2xl bg-[#EDE0D4] mt-48"></div>{/*WHITE LINE */}
             
             
             
