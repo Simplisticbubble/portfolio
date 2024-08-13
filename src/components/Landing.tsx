@@ -79,7 +79,7 @@ function Landing() {
                     <p className='text-xl text-center sm:text-5xl my-4'>Train Math Game</p>
                     <p className='my-4 text-sm sm:text-3xl text-center'>Created a small Math Game inspired by doing math using the train carriage numbers to make 10, using javascript.</p>
                 </div>
-                <div onClick={() => handleClick('https://train-number-7qarpy9eb-kevins-projects-b5321f87.vercel.app/')} className= {`bg-Train bg-center bg-cover h-[20rem] w-[20rem] sm:h-[45rem] sm:w-[45rem] rounded-[5rem] sm:rounded-[10rem] ${state.isSelect ? "bg-[#414444]" : "bg-[#432818]"}`}></div>
+                <div onClick={() => handleClick('https://train-number.vercel.app/')} className= {`bg-Train bg-center bg-cover h-[20rem] w-[20rem] sm:h-[45rem] sm:w-[45rem] rounded-[5rem] sm:rounded-[10rem] ${state.isSelect ? "bg-[#414444]" : "bg-[#432818]"}`}></div>
             </div>
             <div className="w-10/12 h-1 rounded-2xl bg-[#EDE0D4] mt-48"></div>{/*WHITE LINE */}
             <div className='flex flex-row flex-wrap items-center justify-center gap-20 sm:gap-40 mt-20 md:mt-52'>
