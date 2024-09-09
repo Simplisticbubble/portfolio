@@ -60,9 +60,9 @@ function Landing() {
                 <p className='text-5xl mt-12 mb-16'>About Me</p>
                 <p className='text-3xl my-4'>Bio</p>
                 <p className='my-4 text-xl'>Hello! I'm Kevin, a Software Engineer and Computer Science graduate from the University of Technology Sydney, majoring in AI and Data Analytics. During my time at university, I spent my free time learning web development, specialising in full stack development. As a result, I have honed skills in the frontend, especially in React.js.</p>
-                <p className='my-4 text-xl'>With a passion for innovation and a drive for continuous learning, I am taking the necessary steps improve my abilities as a software engineer. After being mentored by several senior engineers and tech leads, I am driven to be a part of technical leadership, drive change and teach fellow junior colleagues.</p>
-                <p className='my-4 text-xl'>To cater this process, I have been learning how to design scalable systems to serve millions of users in my spare time. Books I've been reading include Alex Xu's System Design Interview (Highly recommend) and Designing Data Intensive Applications. In addition, I'm also trying to learn more about the DevOps world, recently picking up skills in GoLang, Shell Scripting and Docker.</p>
-                <p className='my-4 text-xl'>Outside of work related stuff, you will catch me in the gym, cooking food that would not bode well with Chef Ramsay, going on coffee runs, and listening to dance music. :D</p>
+                <p className='my-4 text-xl'>During my studies I developed and implemented machine learning technologies using Python and Java. I am a hardworking and passionate graduate who is willing to grow and learn</p>
+                <p className='my-4 text-xl'>During my studies, I worked as a private tutor and permanent sales assistant in order to build my work experience and learn skills that include communication, problem solving and time management skills. I also worked on personal projects to learn more about web development and am currently working on a website for a local restaurant.</p>
+                <p className='my-4 text-xl'>Outside of work related stuff, I love to keep my mind and body active, whether its at the bouldering gym or in the kitchen making food for my family and friends.</p>
             </div>
             <div ref={targetDivProjects} className="w-10/12 h-1 rounded-2xl bg-[#EDE0D4]"></div>{/*WHITE LINE */}
             
